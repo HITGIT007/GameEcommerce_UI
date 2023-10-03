@@ -139,7 +139,7 @@ const Home = ({navigation}) => {
               }}>
               {item.title}
             </Text>
-            <Text
+            {gamesTab==1? <Text
               numberOfLines={1}
               style={{
                 color: 'black',
@@ -148,7 +148,8 @@ const Home = ({navigation}) => {
                 textTransform: 'uppercase',
               }}>
               ₹{item.price}
-            </Text>
+            </Text> : null}
+            
           </View>
         </View>
 
