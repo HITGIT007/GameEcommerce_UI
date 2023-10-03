@@ -4,10 +4,10 @@ import { StyleSheet, Text,Image, View } from 'react-native'
 
 const BannerSlider = ({data}) => {
     return (
-        <View>
+        <View style={{borderRadius:10}}>
         <Image source={data.image} 
         style={{width:300, height:150, 
-        borderRadius:10}}/>
+        }}/>
         </View>
     )
 }

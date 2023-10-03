@@ -19,7 +19,8 @@ export const sliderData = [
       title: 'Spider-Man',
       subtitle: 'Marvel',
       isFree: 'No',
-      price: 'Rs. 2599',
+      price: '2599',
+      qty:0,
       id: '1',
     },
     {
@@ -27,7 +28,8 @@ export const sliderData = [
       title: 'Battlefield 2042',
       subtitle: 'EA',
       isFree: 'No',
-      price: 'Rs. 1999',
+      price: '1999',
+      qty:0,
       id: '2',
     },
     {
@@ -35,7 +37,8 @@ export const sliderData = [
       title: 'Spider-Man: Miles Morales',
       subtitle: 'Marvel',
       isFree: 'No',
-      price: 'Rs. 2999',
+      price: '2999',
+      qty:0,
       id: '3',
     },
     {
@@ -43,7 +46,8 @@ export const sliderData = [
       title: 'Halo Infinite',
       subtitle: 'Xbox Game',
       isFree: 'No',
-      price: 'Rs. 2499',
+      price: '2499',
+      qty:0,
       id: '4',
     },
     {
@@ -51,7 +55,8 @@ export const sliderData = [
       title: 'Far Cry 6',
       subtitle: 'Ubisoft',
       isFree: 'No',
-      price: 'Rs. 1599',
+      price: '1599',
+      qty:0,
       id: '5',
     },
     {
@@ -59,7 +64,8 @@ export const sliderData = [
       title: 'God of War: Ragnarok',
       subtitle: 'Sony',
       isFree: 'No',
-      price: 'Rs. 2599',
+      price: '2599',
+      qty:0,
       id: '6',
     },
   ];
@@ -70,6 +76,7 @@ export const sliderData = [
       title: 'Altos Odyssey',
       subtitle: 'Noodlecake Studios',
       isFree: 'Yes',
+      qty:0,
       id: '1',
     },
     {
@@ -77,6 +84,7 @@ export const sliderData = [
       title: 'Asphalt 9',
       subtitle: 'Gameloft',
       isFree: 'Yes',
+      qty:0,
       id: '2',
     },
     {
@@ -84,6 +92,7 @@ export const sliderData = [
       title: 'Genshin Impact',
       subtitle: 'miHoYo',
       isFree: 'Yes',
+      qty:0,
       id: '3',
     },
     {
@@ -91,6 +100,7 @@ export const sliderData = [
       title: 'Fortnite',
       subtitle: 'Epic Games',
       isFree: 'Yes',
+      qty:0,
       id: '4',
     },
     {
@@ -98,6 +108,7 @@ export const sliderData = [
       title: 'Pokémon Unite',
       subtitle: 'The Pokémon Company',
       isFree: 'Yes',
+      qty:0,
       id: '5',
     },
     {
@@ -105,6 +116,7 @@ export const sliderData = [
       title: 'Diablo 4',
       subtitle: 'Blizzard Entertainment',
       isFree: 'Yes',
+      qty:0,
       id: '6',
     },
   ];
