@@ -4,7 +4,10 @@ import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint;
 import com.facebook.react.defaults.DefaultReactActivityDelegate;
-
+// import com.game_ecommerceui.CloseAppModule;
+// import java.util.List;
+// import java.util.Arrays;
+// import com.facebook.react.ReactPackage;
 public class MainActivity extends ReactActivity {
 
   /**
@@ -19,6 +22,13 @@ public class MainActivity extends ReactActivity {
   protected String getMainComponentName() {
     return "Game_ECommerceUI";
   }
+//   @Override
+// protected List<ReactPackage> getPackages() {
+//     return Arrays.<ReactPackage>asList(
+     
+//         new CloseAppModule() // Register your module
+//     );
+// }
 
   /**
    * Returns the instance of the {@link ReactActivityDelegate}. Here we use a util class {@link
